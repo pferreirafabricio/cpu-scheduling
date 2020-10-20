@@ -1,5 +1,8 @@
 # Escalonamento de CPU 📊
 
+> Não Preempritivo: O processo __não__ pode ser interrompido <br/>
+> Preempritivo: __Pode__ ser interrompido
+
 ## :arrow_right: Escalonamento FIFO (First In First Out) :arrow_lower_right:: <img src="https://img.shields.io/badge/-n%C3%A3o%20preemptivo-red" /> 
   - O escalonamento FIFO, significa o primeiro processo a “chegar” será o primeiro a “sair”, ou seja, ser executado, além de não poder ser interrompido até o final de sua execução (não preemptivo).
   
