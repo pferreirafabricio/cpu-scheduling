@@ -41,4 +41,14 @@ Assim quando for a vez da Pessoa A ser atendida, ela terá que voltar ao final d
   - É baseado em filas encadeadas, ou seja, uma após a outra, não sendo mais separadas pelo tipo de processo. Todos os novos processos são sempre colocados na 1ª fila que tem o escalonamento FIFO, assim como a 2ª, 3ª ..., menos a última fila, possuindo o escalonamento RR, visto que é necessário que todos os processos sejam finalizados de alguma maneira.
   
   __Exemplo:__ No caso de um supermercado, podemos imaginar uma fila que leva logo a outra, sendo que as pessoas que chegaram primeiro são também as primeiras a chegarem a última fila, que tem por objetivo de que terminem todas as compras, acontecendo nela o mesmo exemplo do escalonamento RR, entre a Pessoa A e a Pessoa B. <br/>
+  
+## :recycle: Contribua
+  Acha que alguma explicação ficou confusa ou que poderia ser melhor? Quer adicionar algum vídeo ou imagem para complementar a explicação? É só mandar um PR com a sua alteração 😃
+ 1. Clone esse repositório;
+ 2. Crie uma branch com a sua alteração: ```git checkout -b adiciona-video-fifo```
+ 3. Commit suas mudanças: ```git commit -m 'feat: Adiciona vídeo de explicação sobre FIFO'```
+ 4. Push sua branch: ```git push origin adiciona-video-fifo```
+ 
+## :page_with_curl:	Licensa
+Esse projeto está sob a licensa MIT. De uma olhada nela [LICENSE](LICENSE.md) para mais detalhes.
 
